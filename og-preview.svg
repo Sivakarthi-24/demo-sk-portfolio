@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#grid)" />
+  
+  <circle cx="1050" cy="150" r="300" fill="#2563eb" opacity="0.12" filter="blur(80px)" />
+  <circle cx="150" cy="500" r="250" fill="#38bdf8" opacity="0.1" filter="blur(70px)" />
+
+  <!-- Badge -->
+  <rect x="100" y="110" width="480" height="42" rx="21" fill="rgba(56, 189, 248, 0.1)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.5" />
+  <circle cx="124" cy="131" r="6" fill="#38bdf8" />
+  <text x="142" y="137" font-family="'Inter', -apple-system, sans-serif" font-size="16" font-weight="600" fill="#38bdf8">First-Year ECE @ Panimalar Engineering College</text>
+  
+  <!-- Title -->
+  <text x="100" y="240" font-family="'Inter', -apple-system, sans-serif" font-size="76" font-weight="800" fill="#ffffff" letter-spacing="-1">Sivakarthi</text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="315" font-family="'Inter', -apple-system, sans-serif" font-size="34" font-weight="600" fill="url(#accent)">Aspiring Embedded Systems &amp; IoT Developer</text>
+  
+  <!-- Description -->
+  <text x="100" y="380" font-family="'Inter', -apple-system, sans-serif" font-size="22" font-weight="400" fill="#94a3b8">Passionate about programming, electronics, C, Python, and hardware-software integration.</text>
+  <text x="100" y="416" font-family="'Inter', -apple-system, sans-serif" font-size="22" font-weight="400" fill="#94a3b8">Chennai, India • Building practical tech projects through continuous learning.</text>
+
+  <!-- Tags -->
+  <g transform="translate(100, 480)">
+    <rect x="0" y="0" width="130" height="40" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="65" y="25" font-family="'JetBrains Mono', monospace" font-size="16" fill="#f8fafc" text-anchor="middle">C / C++</text>
+    
+    <rect x="145" y="0" width="120" height="40" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="205" y="25" font-family="'JetBrains Mono', monospace" font-size="16" fill="#f8fafc" text-anchor="middle">Python</text>
+    
+    <rect x="280" y="0" width="170" height="40" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="365" y="25" font-family="'JetBrains Mono', monospace" font-size="16" fill="#f8fafc" text-anchor="middle">Embedded Systems</text>
+    
+    <rect x="465" y="0" width="90" height="40" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="510" y="25" font-family="'JetBrains Mono', monospace" font-size="16" fill="#f8fafc" text-anchor="middle">IoT</text>
+  </g>
+</svg>
